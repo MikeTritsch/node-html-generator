@@ -30,7 +30,8 @@ inquirer.prompt([
     }
 ])
 .then((response) =>
-    fs.writeFile('userIndex.html', `<!DOCTYPE html>
+    fs.writeFile('userIndex.html', 
+    `<!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -68,6 +69,7 @@ inquirer.prompt([
             </div>
         </main>
     </body>
-    </html>`, (err) =>
+    </html>`, 
+    (err) =>
     err ? console.error(err) : console.log('Success! Generating page...'))
     );
