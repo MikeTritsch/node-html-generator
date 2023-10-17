@@ -9,5 +9,8 @@
 body {
     background-color: #024059;
     color: #F2E307;
+    background-image: url(/assets/images/cyberpunk.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
